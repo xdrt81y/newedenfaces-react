@@ -207,7 +207,8 @@ class Navbar extends React.Component {
                 </li>
               </ul>
             </li>
-            <li><Link to='/add'>Add</Link></li>
+            <li><Link to='/add'>Add Test</Link></li>
+            <li><Link to='/hello'>Hello</Link></li>
           </ul>
         </div>
       </nav>
