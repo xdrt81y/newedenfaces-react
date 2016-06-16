@@ -1,7 +1,7 @@
 import alt from '../alt';
-import LocationActions '../actions/LocationActions';
-import LocationSource '../models/LocationSource';
-import FavoritesStore './FavoritesStore';
+import LocationActions from '../actions/LocationActions';
+import LocationSource from '../models/LocationSource';
+import FavoritesStore from './FavoritesStore';
 
 class LocationStore {
 	constructor() {
