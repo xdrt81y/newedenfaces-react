@@ -1,13 +1,21 @@
-import alt from '../alt';
+var alt = require('../alt');
 
 class LocationActions {
-	updateLocations(locations) {
-		return locations
-	}
+  updateLocations(locations) {
+    this.dispatch(locations);
+  }
 
-	favoriteLocation(locationId) {
-  		this.dispatch(locationId);
-	}
+  fetchLocations() {
+    this.dispatch();
+  }
+
+  locationsFailed(errorMessage) {
+    this.dispatch(errorMessage);
+  }
+
+  favoriteLocation(location) {
+    this.dispatch(location);
+  }
 }
 
-export default alt.createActions(LocationActions);
+module.exports = alt.createActions(LocationActions);
