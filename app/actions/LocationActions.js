@@ -8,6 +8,6 @@ class LocationActions {
 	favoriteLocation(locationId) {
   		this.dispatch(locationId);
 	}
-
-	module.exports = alt.createActions(LocationActions)
 }
+
+export default alt.createActions(LocationActions);
