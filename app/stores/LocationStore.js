@@ -1,6 +1,6 @@
 import alt from '../alt';
 import LocationActions from '../actions/LocationActions';
-import LocationSource from '../models/LocationSource';
+import LocationSource from './LocationSource';
 import FavoritesStore from './FavoritesStore';
 
 class LocationStore {
