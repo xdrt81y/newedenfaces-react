@@ -7,7 +7,7 @@ import Character from './components/Character';
 import CharacterList from './components/CharacterList';
 import AddCharacter from './components/AddCharacter';
 import Hello from './components/Hello';
-import Location from './components/Location';
+import Location from './components/Locations';
 
 export default (
   <Route component={App}>
