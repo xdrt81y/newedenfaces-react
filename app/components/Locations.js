@@ -1,5 +1,5 @@
 import React from 'react';
-import LocationStore '../stores/LocationStore';
+import LocationStore from '../stores/LocationStore';
 
 class Locations extends React.Component {
 	getInitialState() {
