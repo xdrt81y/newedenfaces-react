@@ -7,6 +7,7 @@ import Character from './components/Character';
 import CharacterList from './components/CharacterList';
 import AddCharacter from './components/AddCharacter';
 import Hello from './components/Hello';
+import Location from './components/Location';
 
 export default (
   <Route component={App}>
@@ -15,6 +16,7 @@ export default (
     <Route path='/characters/:id' component={Character} />
     <Route path='/add' component={AddCharacter} />
     <Route path='/hello' component={Hello} />
+    <Route path='/location' component={Location} />
     <Route path=':category' component={CharacterList}>
       <Route path=':race' component={CharacterList}>
         <Route path=':bloodline' component={CharacterList} />
